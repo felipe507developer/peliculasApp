@@ -1,3 +1,4 @@
+import { PipesModule } from './../pipes/pipes.module';
 import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -12,6 +13,7 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
     IonicModule,
     CommonModule,
     FormsModule,
+    PipesModule,
     ExploreContainerComponentModule,
     Tab2PageRoutingModule
   ],
